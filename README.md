@@ -11,24 +11,27 @@ Setup and Configuration
 
 ## Prerequisites
 Python 3.x
+
 Azure account with access to Data Lake Storage Gen2
+
 Access to the specified Google Drive folder
-Installation
+## Installation
 Clone this repository:
-bash
-Copy code
 git clone [repository-url]
+
+Install the Azure Storage Datalake client library for Python with pip
+
+
 Install required Python packages:
-Copy code
+
 pip install -r requirements.txt
 ## Configuration
 Ensure that you have the necessary Azure credentials (Storage Account Name, Access Key) and configure them in the scripts.
+
 Modify the script parameters to point to the correct file paths or directories in your Azure Data Lake Storage and Google Drive folder.
 Usage
 
 Run the individual scripts to perform actions like file upload, download, listing, etc. Detailed instructions for each script are provided within the script files themselves.
-Contributing
-
 
 ## Acknowledgments
 This work is based on the samples provided by Azure SDK for Python.
